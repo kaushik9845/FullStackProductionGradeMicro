@@ -1,4 +1,4 @@
-FROM node:15.13-alpine
+FROM node:16.13.0
 WORKDIR /frontend
 ENV PATH="./node_modules/.bin:$PATH"
 COPY . .
