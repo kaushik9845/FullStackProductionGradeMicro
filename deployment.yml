@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: frontend-app
-        image: quickstart-docker-repo/frontend
+        image: frontend
         ports:
         - containerPort: 20000
         resources:
