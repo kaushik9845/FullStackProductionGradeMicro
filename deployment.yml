@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: frontend-app
-        image: us-central1-docker.pkg.dev/precise-passkey-343714/quickstart-docker-repo/frontend
+        image: us-central1-docker.pkg.dev/precise-passkey-343714/quickstart-docker-repo/frontend:20898057529778c8b079148e96671ba70aa2395f
         ports:
         - containerPort: 20000
         resources:
